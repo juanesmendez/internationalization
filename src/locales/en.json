@@ -4,5 +4,6 @@
     "Salary": "Salary",
     "City": "City",
     "PublicationDate": "Publication Date",
-    "Views": "No. Views"
+    "Views": "No. Views",
+    "colorBackground": "thead-dark"
 }

@@ -41,6 +41,14 @@ export default class JobsList extends React.Component {
     console.log(navigator.language);
   }
 
+  checkColor() {
+    if (navigator.language.includes("es")) {
+      return "bg-light";
+    } else if (navigator.language.includes("en")) {
+      return "bg-dark";
+    }
+  }
+
   render() {
     return (
       <div>
