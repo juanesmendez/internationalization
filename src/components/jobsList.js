@@ -43,9 +43,9 @@ export default class JobsList extends React.Component {
 
   checkColor() {
     if (navigator.language.includes("es")) {
-      return "bg-light";
+      return "thead-light";
     } else if (navigator.language.includes("en")) {
-      return "bg-dark";
+      return "thead-dark";
     }
   }
 
@@ -53,7 +53,7 @@ export default class JobsList extends React.Component {
     return (
       <div>
         <table className="table">
-          <thead className="thead-dark">
+          <thead className={this.checkColor()}>
             <tr>
               <th scope="col">#</th>
               <th scope="col"><FormattedMessage id="Position" /></th>
