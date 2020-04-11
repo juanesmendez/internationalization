@@ -1,3 +1,37 @@
+# Internationalization App 🇪🇸🇺🇸
+
+## Description
+
+React web application that shows a simple table with sample data. It supports two languages: english and spanish. It uses the `react-intl` library, which is in charge of rendering the table depending on the language that the user's browser is configured to use.
+
+## Description
+
+Frameworks used:
+- React ⚛
+- Bootstrap 🅱
+
+Libaries used:
+- `react-intl`
+
+## Screenshot of the app running
+
+- English 🇺🇸
+
+![](wiki-images/english.png)
+
+- Spanish 🇪🇸
+
+![](wiki-images/spanish.png)
+
+# How to run?
+
+To run the project, please follow the steps below:
+
+1. Install `npm`.
+2. Run `npm install` in the root directory of the project.
+3. Run `npm start`, and open your browser on `localhost:3000`
+4. Change your browser's language to check how the table language changes after you refresh the web page.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
