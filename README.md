@@ -11,7 +11,7 @@ React web application that shows a simple table with sample data. It supports tw
 Libaries used:
 - `react-intl`
 
-### Screenshot of the app running
+### Screenshots of the app running
 
 - English 🇺🇸
 
